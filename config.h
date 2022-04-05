@@ -1,138 +1,139 @@
+/* config.h.  Generated from config.h.in by configure.  */
 /* config.h.in.  Generated from configure.ac by autoheader.  */
 
 /* Define to 1 if you have the <dlfcn.h> header file. */
-#undef HAVE_DLFCN_H
+#define HAVE_DLFCN_H 1
 
 /* Define to 1 if you have the `fdatasync' function. */
-#undef HAVE_FDATASYNC
+#define HAVE_FDATASYNC 1
 
 /* Define to 1 if you have the `gmtime_r' function. */
-#undef HAVE_GMTIME_R
+#define HAVE_GMTIME_R 1
 
 /* Define to 1 if the system has the type `int16_t'. */
-#undef HAVE_INT16_T
+#define HAVE_INT16_T 1
 
 /* Define to 1 if the system has the type `int32_t'. */
-#undef HAVE_INT32_T
+#define HAVE_INT32_T 1
 
 /* Define to 1 if the system has the type `int64_t'. */
-#undef HAVE_INT64_T
+#define HAVE_INT64_T 1
 
 /* Define to 1 if the system has the type `int8_t'. */
-#undef HAVE_INT8_T
+#define HAVE_INT8_T 1
 
 /* Define to 1 if the system has the type `intptr_t'. */
-#undef HAVE_INTPTR_T
+#define HAVE_INTPTR_T 1
 
 /* Define to 1 if you have the <inttypes.h> header file. */
-#undef HAVE_INTTYPES_H
+#define HAVE_INTTYPES_H 1
 
 /* Define to 1 if you have the `isnan' function. */
-#undef HAVE_ISNAN
+#define HAVE_ISNAN 1
 
 /* Define to 1 if you have the `localtime_r' function. */
-#undef HAVE_LOCALTIME_R
+#define HAVE_LOCALTIME_R 1
 
 /* Define to 1 if you have the `localtime_s' function. */
-#undef HAVE_LOCALTIME_S
+/* #undef HAVE_LOCALTIME_S */
 
 /* Define to 1 if you have the <malloc.h> header file. */
-#undef HAVE_MALLOC_H
+/* #undef HAVE_MALLOC_H */
 
 /* Define to 1 if you have the `malloc_usable_size' function. */
-#undef HAVE_MALLOC_USABLE_SIZE
+/* #undef HAVE_MALLOC_USABLE_SIZE */
 
 /* Define to 1 if you have the `pread' function. */
-#undef HAVE_PREAD
+#define HAVE_PREAD 1
 
 /* Define to 1 if you have the `pread64' function. */
-#undef HAVE_PREAD64
+/* #undef HAVE_PREAD64 */
 
 /* Define to 1 if you have the `pwrite' function. */
-#undef HAVE_PWRITE
+#define HAVE_PWRITE 1
 
 /* Define to 1 if you have the `pwrite64' function. */
-#undef HAVE_PWRITE64
+/* #undef HAVE_PWRITE64 */
 
 /* Define to 1 if you have the <stdint.h> header file. */
-#undef HAVE_STDINT_H
+#define HAVE_STDINT_H 1
 
 /* Define to 1 if you have the <stdio.h> header file. */
-#undef HAVE_STDIO_H
+#define HAVE_STDIO_H 1
 
 /* Define to 1 if you have the <stdlib.h> header file. */
-#undef HAVE_STDLIB_H
+#define HAVE_STDLIB_H 1
 
 /* Define to 1 if you have the `strchrnul' function. */
-#undef HAVE_STRCHRNUL
+/* #undef HAVE_STRCHRNUL */
 
 /* Define to 1 if you have the <strings.h> header file. */
-#undef HAVE_STRINGS_H
+#define HAVE_STRINGS_H 1
 
 /* Define to 1 if you have the <string.h> header file. */
-#undef HAVE_STRING_H
+#define HAVE_STRING_H 1
 
 /* Define to 1 if you have the <sys/stat.h> header file. */
-#undef HAVE_SYS_STAT_H
+#define HAVE_SYS_STAT_H 1
 
 /* Define to 1 if you have the <sys/types.h> header file. */
-#undef HAVE_SYS_TYPES_H
+#define HAVE_SYS_TYPES_H 1
 
 /* Define to 1 if the system has the type `uint16_t'. */
-#undef HAVE_UINT16_T
+#define HAVE_UINT16_T 1
 
 /* Define to 1 if the system has the type `uint32_t'. */
-#undef HAVE_UINT32_T
+#define HAVE_UINT32_T 1
 
 /* Define to 1 if the system has the type `uint64_t'. */
-#undef HAVE_UINT64_T
+#define HAVE_UINT64_T 1
 
 /* Define to 1 if the system has the type `uint8_t'. */
-#undef HAVE_UINT8_T
+#define HAVE_UINT8_T 1
 
 /* Define to 1 if the system has the type `uintptr_t'. */
-#undef HAVE_UINTPTR_T
+#define HAVE_UINTPTR_T 1
 
 /* Define to 1 if you have the <unistd.h> header file. */
-#undef HAVE_UNISTD_H
+#define HAVE_UNISTD_H 1
 
 /* Define to 1 if you have the `usleep' function. */
-#undef HAVE_USLEEP
+#define HAVE_USLEEP 1
 
 /* Define to 1 if you have the `utime' function. */
-#undef HAVE_UTIME
+#define HAVE_UTIME 1
 
 /* Define to 1 if you have the <zlib.h> header file. */
-#undef HAVE_ZLIB_H
+#define HAVE_ZLIB_H 1
 
 /* Define to the sub-directory where libtool stores uninstalled libraries. */
-#undef LT_OBJDIR
+#define LT_OBJDIR ".libs/"
 
 /* Define to the address where bug reports for this package should be sent. */
-#undef PACKAGE_BUGREPORT
+#define PACKAGE_BUGREPORT ""
 
 /* Define to the full name of this package. */
-#undef PACKAGE_NAME
+#define PACKAGE_NAME "sqlite"
 
 /* Define to the full name and version of this package. */
-#undef PACKAGE_STRING
+#define PACKAGE_STRING "sqlite 3.37.0"
 
 /* Define to the one symbol short name of this package. */
-#undef PACKAGE_TARNAME
+#define PACKAGE_TARNAME "sqlite"
 
 /* Define to the home page for this package. */
-#undef PACKAGE_URL
+#define PACKAGE_URL ""
 
 /* Define to the version of this package. */
-#undef PACKAGE_VERSION
+#define PACKAGE_VERSION "3.37.0"
 
 /* Define to 1 if all of the C90 standard headers exist (not just the ones
    required in a freestanding environment). This macro is provided for
    backward compatibility; new code need not use it. */
-#undef STDC_HEADERS
+#define STDC_HEADERS 1
 
 /* Number of bits in a file offset, on hosts where this is settable. */
-#undef _FILE_OFFSET_BITS
+/* #undef _FILE_OFFSET_BITS */
 
 /* Define for large files, on AIX-style hosts. */
-#undef _LARGE_FILES
+/* #undef _LARGE_FILES */
